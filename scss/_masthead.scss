@@ -1,0 +1,167 @@
+// Styling for the masthead
+header.masthead {
+    position: relative;
+
+    width: 100%;
+    //padding-top: 150px;
+    padding-bottom: 100px;
+
+    color: white;
+    //background-repeat:no-repeat;
+    //background-size:cover;
+    //background-position:center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('../img/greg-sellentin-178437.jpg');
+    //background: url('../img/bg-pattern.png'), -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    //background: url('../img/bg-pattern.png'), linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    .header-content {
+        max-width: 500px;
+        margin-bottom: 100px;
+
+        text-align: center;
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    .header-container {
+        display: flex;
+        flex-direction: column;
+
+        .header-logo {
+            margin: 415px auto;
+        }
+    }
+
+    @media screen
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+        height: 100vh;
+        min-height: 775px;
+        padding-top: 0;
+        padding-bottom: 0;
+        .header-container {
+            display: flex;
+            flex-direction: column;
+
+            .header-logo {
+                margin: 415px auto;
+            }
+        }
+
+        .header-content {
+            margin-bottom: 0;
+
+            text-align: left;
+            h1 {
+                font-size: 50px;
+            }
+        }
+    }
+
+    @media (min-device-width: 1920px) {
+        height: 100vh;
+        min-height: 775px;
+        padding-top: 0;
+        padding-bottom: 0;
+        .header-container {
+            display: flex;
+            flex-direction: column;
+
+            .header-logo {
+                margin: 620px auto;
+            }
+        }
+
+        .header-content {
+            margin-bottom: 0;
+
+            text-align: left;
+            h1 {
+                font-size: 50px;
+            }
+        }
+    }
+
+    @media (min-device-width: 2560px) {
+        height: 100vh;
+        min-height: 775px;
+        padding-top: 0;
+        padding-bottom: 0;
+        .header-container {
+            display: flex;
+            flex-direction: column;
+
+            .header-logo {
+                margin: 415px auto;
+            }
+        }
+
+        .header-content {
+            margin-bottom: 0;
+
+            text-align: left;
+            h1 {
+                font-size: 50px;
+            }
+        }
+    }
+
+    @media (min-width: 992px) {
+        height: 100vh;
+        min-height: 775px;
+        padding-top: 0;
+        padding-bottom: 0;
+        .header-container {
+            display: flex;
+            flex-direction: column;
+
+            .header-logo {
+                margin: 335px auto;
+            }
+        }
+
+        .header-content {
+            margin-bottom: 0;
+
+            text-align: left;
+            h1 {
+                font-size: 50px;
+            }
+        }
+    }
+
+
+    /* ----------- Retina Screens ----------- */
+    @media screen
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (min-resolution: 192dpi) {
+        height: 100vh;
+        min-height: 775px;
+        padding-top: 0;
+        padding-bottom: 0;
+        .header-container {
+            display: flex;
+            flex-direction: column;
+
+            .header-logo {
+                margin: 415px auto;
+            }
+        }
+
+        .header-content {
+            margin-bottom: 0;
+
+            text-align: left;
+            h1 {
+                font-size: 50px;
+            }
+        }
+    }
+}
