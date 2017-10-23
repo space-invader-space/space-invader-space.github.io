@@ -120,7 +120,7 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-image: url("../img/greg-sellentin-178437.jpg");
+  background: url("../img/greg-sellentin-178437.jpg");
   /* ----------- Retina Screens ----------- */ }
   header.masthead .header-content {
     max-width: 500px;
@@ -264,7 +264,7 @@ section.features .feature-item {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/backgr4.jpg");
+  background: url("../img/backgr4.jpg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -276,16 +276,32 @@ section.cta {
     section.cta .cta-content h2 {
       font-size: 50px;
       max-width: 450px;
-      margin-top: 0;
-      margin-bottom: 25px;
+      margin: 25px auto;
       color: white; }
-    section.cta .cta-content p {
-      color: white; }
+    section.cta .cta-content h3 {
+      font-size: 30px;
+      max-width: 450px;
+      margin: 25px auto;
+      color: #f39231; }
+    section.cta .cta-content .image-container {
+      display: flex;
+      padding: 10px; }
+      section.cta .cta-content .image-container .icon {
+        padding: 0 15px; }
+      section.cta .cta-content .image-container p {
+        color: white;
+        margin: 0; }
     @media (min-width: 768px) {
       section.cta .cta-content h2 {
         font-size: 46px; }
-      section.cta .cta-content p {
-        color: white; } }
+      section.cta .cta-content .image-container {
+        display: flex;
+        padding: 10px; }
+        section.cta .cta-content .image-container .icon {
+          padding: 0 15px; }
+        section.cta .cta-content .image-container p {
+          color: white;
+          margin: 0; } }
   section.cta .overlay {
     position: absolute;
     top: 0;

@@ -2,7 +2,7 @@
 section.cta {
     position: relative;
     padding: 250px 0;
-    background-image: url('../img/backgr4.jpg');
+    background: url('../img/backgr4.jpg');
     background-position: center;
 
     @include background-cover;
@@ -12,22 +12,45 @@ section.cta {
         h2 {
             font-size: 50px;
             max-width: 450px;
-            margin-top: 0;
-            margin-bottom: 25px;
+            margin: 25px auto;
             color: white;
         }
+        h3 {
+            font-size: 30px;
+            max-width: 450px;
+            margin: 25px auto;
+            color: $orange-title;
+        }
 
-        p {
-            color: white;
+        .image-container{
+            display: flex;
+            padding: 10px;
+
+            .icon {
+                padding: 0 15px;
+            }
+
+            p {
+                color: white;
+                margin: 0;
+            }
         }
 
         @media (min-width: 768px) {
             h2 {
                 font-size: 46px;
             }
+            .image-container{
+                display: flex;
+                padding: 10px;
+                .icon {
+                    padding: 0 15px;
+                }
 
-            p {
-                color: white;
+                p {
+                    color: white;
+                    margin: 0;
+                }
             }
         }
     }
