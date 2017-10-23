@@ -15,7 +15,15 @@ var banner = ['/*!\n',
   ' */\n',
   ''
 ].join('');
+var deploy      = require('gulp-gh-pages');
 
+/**
+ * Push build to gh-pages
+ */
+gulp.task('deploy', function () {
+    return gulp.src("./dist/**/*")
+        .pipe(deploy())
+});
 // Compiles SCSS files from /scss into /css
 gulp.task('sass', function() {
   return gulp.src('scss/new-age.scss')
