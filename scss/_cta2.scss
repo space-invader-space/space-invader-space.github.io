@@ -2,7 +2,7 @@
 section.cta2 {
     position: relative;
     padding: 250px 0;
-    background-image: url('../img/shlakoblokun.png');
+    background: url('../img/shlakoblokun.png');
     background-position: center;
 
     @include background-cover;
