@@ -361,16 +361,24 @@ footer {
     margin: 0; }
   footer ul {
     margin-bottom: 0; }
-    footer ul li a {
-      font-size: 20px;
-      color: black; }
-      footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
-        text-decoration: none; }
+    footer ul li {
+      padding: 10px 20px; }
+      footer ul li a {
+        font-size: 20px;
+        color: black; }
+        footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
+          text-decoration: none; }
+        footer ul li a i {
+          font-size: 100px; }
   footer .container {
     display: flex; }
   @media (min-width: 992px) {
     footer .container {
-      display: flex; } }
+      display: flex; }
+      footer .container li {
+        padding: 10px 20px; }
+      footer .container i {
+        font-size: 100px; } }
 
 .bg-primary {
   background: #f39231;

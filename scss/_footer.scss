@@ -12,6 +12,7 @@ footer {
     ul {
         margin-bottom: 0;
         li {
+            padding: 10px 20px;
             a {
                 font-size: 20px;
                 color: black;
@@ -20,6 +21,9 @@ footer {
                 &:active,
                 &.active {
                     text-decoration: none;
+                }
+                i {
+                    font-size: 100px;
                 }
             }
         }
@@ -31,7 +35,13 @@ footer {
 
     @media (min-width: 992px) {
         .container {
+            li {
+                padding: 10px 20px;
+            }
             display: flex;
+            i {
+                font-size: 100px;
+            }
         }
     }
 }
