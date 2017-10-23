@@ -12,12 +12,12 @@ body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif'; }
 
 a {
-  color: #fdcc52;
+  color: #f39231;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s; }
   a:hover, a:focus {
-    color: #fcbd20; }
+    color: #e4790d; }
 
 hr {
   border-color: white;
@@ -57,23 +57,23 @@ section {
   font-weight: 200;
   letter-spacing: 1px; }
   #mainNav .navbar-brand {
-    color: #fdcc52;
+    color: #f39231;
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
     letter-spacing: 1px; }
     #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-      color: #fcbd20; }
+      color: #e4790d; }
   #mainNav .navbar-toggler {
     font-size: 20px;
     padding: 8px 10px;
     color: #222222; }
   #mainNav .navbar-nav > li > a {
-    font-size: 20px;
+    font-size: 35px;
     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     letter-spacing: 2px;
     text-transform: uppercase; }
     #mainNav .navbar-nav > li > a.active {
-      color: #fdcc52 !important;
+      color: #f39231 !important;
       background-color: transparent; }
       #mainNav .navbar-nav > li > a.active:hover {
         background-color: transparent; }
@@ -82,7 +82,7 @@ section {
     color: #222222; }
     #mainNav .navbar-nav > li > a:hover,
     #mainNav .navbar-nav > li > a:focus:hover {
-      color: #fdcc52; }
+      color: #f39231; }
   @media (min-width: 992px) {
     #mainNav {
       border-color: transparent;
@@ -103,13 +103,13 @@ section {
         #mainNav.navbar-shrink .navbar-brand {
           color: #222222; }
           #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-            color: #fdcc52; }
+            color: #f39231; }
         #mainNav.navbar-shrink .navbar-nav > li > a,
         #mainNav.navbar-shrink .navbar-nav > li > a:focus {
           color: #222222; }
           #mainNav.navbar-shrink .navbar-nav > li > a:hover,
           #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-            color: #fdcc52; } }
+            color: #f39231; } }
 
 header.masthead {
   position: relative;
@@ -120,7 +120,7 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background: url("../img/greg-sellentin-178437.jpg");
+  background-image: url("../img/greg-sellentin-178437.jpg");
   /* ----------- Retina Screens ----------- */ }
   header.masthead .header-content {
     max-width: 500px;
@@ -373,12 +373,12 @@ footer {
       display: flex; } }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539); }
+  background: #f39231;
+  background: -webkit-linear-gradient(#f39231, #f28519);
+  background: linear-gradient(#f39231, #f28519); }
 
 .text-primary {
-  color: #fdcc52; }
+  color: #f39231; }
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -390,8 +390,8 @@ footer {
   border-color: white; }
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
     color: white;
-    border-color: #fdcc52;
-    background-color: #fdcc52; }
+    border-color: #f39231;
+    background-color: #f39231; }
 
 .btn {
   border-radius: 300px;
