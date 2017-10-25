@@ -1,15 +1,43 @@
 // Styling for the download section
 section.contact {
+    padding-top: 0px!important;
     text-align: center;
+    .section-heading {
+        height: 240px;
+        background-color: black;
+        h2 {
+            color: white;
+            font-weight: lighter;
+        }
+
+        h3 {
+            padding-top: 60px;
+            font-weight: lighter;
+            color: $orange-title
+        }
+    }
+
+    .form {
+        display: flex;
+    }
     input {
-        border-radius: 18px;
         margin: 10px;
     }
+
     h2 {
-        margin-top: 0;
+        margin-top: 15px;
         color: white;
         font-weight: 500;
         margin-bottom: 25px;
+    }
+
+    .form-part-1 {
+        flex-direction: column!important;
+        margin: 0 auto;
+    }
+    .form-part-2 {
+        flex-direction: column!important;
+        margin: 0 auto;
     }
     ul.list-social {
         margin-bottom: 0;
